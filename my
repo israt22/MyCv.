@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> my cv</title>
+    <link rel="stylesheet" href="my cv.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="all.min.css" />
+    <style>
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-color:grey;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.container{
+    max-width:1000px;
+    max-width:1000px;
+    background-color:royalblue;
+    background-image:url(images.jpg);
+    background-repeat:no-repeat;
+    background-size:1000px 1442px;
+    margin: 0 auto;
+    box-sizing:border-box;
+    padding:6px;
+   
+}
+img{
+height:100px;
+width:100px;
+
+border-radius:50%;
+border:3px solid black;
+padding:1px;
+float:left;
+}
+
+.header-bio{
+ float:left;
+ padding:30px ;
+}
+h1,h2{
+    color:white;
+}
+h1:hover{
+    color:palegreen;
+}
+h2:hover{
+    color:pink;
+}
+.contact{
+    float:right;
+    padding:25px 10px;
+}
+hr{
+    border-bottom:none;
+    border-top:3px solid black;
+    width:100%;
+    
+}
+.contact ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+.contact ul{
+    list-style-type:none;
+}
+    .contact ul li a:hover {
+        color: darkseagreen;
+        text-decoration:underline;
+    }
+    .contact ul li{
+        padding:5px;
+    }
+    .div-clear{
+        clear:both;
+    }
+.left-div{
+    float:left;
+    padding-top:5px;
+    
+    
+}
+
+    .left-div h1{
+    padding:5px;
+    color:yellow;
+    
+}
+    .left-div h1:hover{
+        color:green;
+    }
+    .right-div {
+        float: right;
+        color: green;
+     
+       padding:10px 20px;
+     
+    }
+    .right-div p{
+        padding:10px;
+    }
+
+
+.right-div:hover{
+    color:yellow;
+}
+.normalhr {
+    border-bottom: none;
+    border-top: 2px solid brown;
+    width: 100%;
+    
+}
+
+
+.education-templet-left h1{
+    color:yellow;
+    float:left;
+
+}
+
+.education-templet-right  {
+    
+    float: right!important;
+    color: green;
+    margin:0px 100px;
+}
+.education-templet-right :hover{
+    
+    color: yellow;
+}
+
+.another{
+    padding:0px 90px;
+}
+
+/* customizable snowflake styling */
+.snowflake {
+    color: #fff;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 5px #000;
+}
+
+@-webkit-keyframes snowflakes-fall {
+    0% {
+        top: -10%
+    }
+
+    100% {
+        top: 100%
+    }
+}
+
+@-webkit-keyframes snowflakes-shake {
+    0%,100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+
+    50% {
+        -webkit-transform: translateX(80px);
+        transform: translateX(80px)
+    }
+}
+
+@keyframes snowflakes-fall {
+    0% {
+        top: -10%
+    }
+
+    100% {
+        top: 100%
+    }
+}
+
+@keyframes snowflakes-shake {
+    0%,100% {
+        transform: translateX(0)
+    }
+
+    50% {
+        transform: translateX(80px)
+    }
+}
+
+.snowflake {
+    position: fixed;
+    top: -10%;
+    z-index: 9999;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    -webkit-animation-name: snowflakes-fall,snowflakes-shake;
+    -webkit-animation-duration: 10s,3s;
+    -webkit-animation-timing-function: linear,ease-in-out;
+    -webkit-animation-iteration-count: infinite,infinite;
+    -webkit-animation-play-state: running,running;
+    animation-name: snowflakes-fall,snowflakes-shake;
+    animation-duration: 10s,3s;
+    animation-timing-function: linear,ease-in-out;
+    animation-iteration-count: infinite,infinite;
+    animation-play-state: running,running
+}
+
+    .snowflake:nth-of-type(0) {
+        left: 1%;
+        -webkit-animation-delay: 1s,1s;
+        animation-delay: 0s,0s
+    }
+
+    .snowflake:nth-of-type(1) {
+        left: 10%;
+        -webkit-animation-delay: 1s,1s;
+        animation-delay: 1s,1s
+    }
+
+    .snowflake:nth-of-type(2) {
+        left: 20%;
+        -webkit-animation-delay: 6s,.5s;
+        animation-delay: 6s,.5s
+    }
+
+    .snowflake:nth-of-type(3) {
+        left: 30%;
+        -webkit-animation-delay: 4s,2s;
+        animation-delay: 4s,2s
+    }
+
+    .snowflake:nth-of-type(4) {
+        left: 40%;
+        -webkit-animation-delay: 2s,2s;
+        animation-delay: 2s,2s
+    }
+
+    .snowflake:nth-of-type(5) {
+        left: 50%;
+        -webkit-animation-delay: 8s,3s;
+        animation-delay: 8s,3s
+    }
+
+    .snowflake:nth-of-type(6) {
+        left: 60%;
+        -webkit-animation-delay: 6s,2s;
+        animation-delay: 6s,2s
+    }
+
+    .snowflake:nth-of-type(7) {
+        left: 70%;
+        -webkit-animation-delay: 2.5s,1s;
+        animation-delay: 2.5s,1s
+    }
+
+    .snowflake:nth-of-type(8) {
+        left: 80%;
+        -webkit-animation-delay: 1s,0s;
+        animation-delay: 1s,0s
+    }
+
+    .snowflake:nth-of-type(9) {
+        left: 50%;
+        -webkit-animation-delay: 3s,1.5s;
+        animation-delay: 3s,1.5s
+    }
+
+    .snowflake:nth-of-type(10) {
+        left: 25%;
+        -webkit-animation-delay: 2s,0s;
+        animation-delay: 2s,0s
+    }
+    .snowflake:nth-of-type(11) {
+        left: 75%;
+        -webkit-animation-delay: 4s,2.5s;
+        animation-delay: 4s,2.5s
+    }
+
+
+    /*knowledge*/
+  
+  .knowledge ul{
+      text-align:center;
+      list-style-type:none;
+  }
+
+
+
+
+ .knowledge ul li h1{
+     color:white;
+     
+ }
+    .knowledge ul li h1:hover {
+        color: greenyellow;
+    }
+progress {
+    height: 100px;
+    float: left;
+    
+}
+
+.knowledge ul li i{
+    color:orange;
+    background-color:yellow;
+    widht:100px;
+    
+   
+}
+.knowledge ul li{
+    width:100%;
+    text-align:center;
+   
+}
+/*bottom*/
+.bottom-container {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    padding: 12px;
+}
+.bottom-container  ul li  a{
+    
+    font-size:2rem;
+    color:white;
+    text-decoration:none;
+    float:left;
+    width:100%;
+
+}
+.bottom-container p{
+    font-size:2rem;
+    padding-top:100px;
+    color:white;
+    
+    
+}
+    .bottom-container ul li{
+        list-style-type:none;
+        float:left;
+      width:50%;
+    }
+    .bottom-container a:hover {
+        font-size: 2rem;
+        color: orange;
+        text-decoration: underline;
+    }
+    .bottom-container ul li::before {
+        font-family: 'Font Awesome 5 free';
+        font-weight: bold;
+        margin: 30px 5px;
+        font-size: 2rem;
+        color: blue;
+    }
+    .bottom-container i{
+       background-color:white;
+        color:lightblue;
+        border-radius:50%;
+        text-align:center;
+        width:50%;
+        margin-bottom:5px;
+    }
+ .botom-container i:hover {
+    background-color: darkblue;
+    color: orange;
+   border-radius:70%;
+}
+   
+     </style>
+</head>
+<body>
+    <!--container start-->
+    <div class="container">
+
+        <!--header start-->
+
+        <header id="top">
+
+            <img src="img/sweety.png" />
+            <div class="header-bio">
+                <h1>ISRAT JANNAT SWEETY</h1>
+                <h2>WEB DESIGNER</h2>
+            </div>
+            <div class="contact">
+                <ul>
+                    <li><a href="mailto:isratjannat848@gmail.com">EMAIL:isratjannat848@gmail.com</a> </li>
+                    <li><a href="tel:+8801875835778">PHONE:01875835778</a></li>
+                    <li><a href="tel:+8801734724241">PHONE:01734724241</a></li>
+                </ul>
+            </div>
+        </header>
+        <!--header end-->
+        <!--clearing div-->
+        <div class="div-clear"></div>
+        <hr />
+        <!--main start-->
+        <main>
+            <!--section1 start-->
+            <section>
+                <div class="left-div">
+                    <h1>PERSONAL INFORMATION</h1>
+                </div>
+                <div class="right-div">
+                    <p>ADDRESS:Agrabad,cda,road no-1/1,House No-1618/A</p>
+                    <p>Gender:Male</p>
+                    <p>Date:29/12/1998</p>
+                    <p>Nationality:Bangladeshi</p>
+                </div>
+
+            </section>
+            <div class="div-clear"></div>
+            <hr class="normalhr" />
+            <!--section1 end-->
+            <!--section2 start-->
+
+            <section id="education">
+                <div class="left-div">
+                    <h1>SSC:</h1>
+                </div>
+                <div class="right-div">
+                    <p>BANGLADESH NOU BAHINI SCHOOL AND COLLEGE</p>
+                    <p>GROUP:SCIENCE</p>
+                    <p>2014</p>
+
+                </div>
+                <div class="div-clear"></div>
+                <div class="left-div">
+                    <h1>HSC:</h1>
+                </div>
+                <div class="right-div">
+                    <p>BANGLADESH NOU BAHINI SCHOOL AND COLLEGE</p>
+                    <p>GROUP:SCIENCE</p>
+                    <p>2016</p>
+
+                </div>
+                <div class="div-clear"></div>
+
+                <div class="left-div">
+                    <h1>BSC:</h1>
+                </div>
+                <div class="right-div  another">
+                    <p>CHITTAGONG INDEPENDENT UNIVERSITY</p>
+                    <p>MAJOR:CSE</p>
+                    <p>MINOR:ENGINEERING MATHMATICS</p>
+                    <p>PERSUING</p>
+
+                </div>
+            </section>
+            <div class="div-clear"></div>
+            <hr class="normalhr" />
+            <section class="knowledge">
+
+                <h1>KNOWLEGDE</h1>
+
+                <ul>
+                    <li><i class="fab fa-2x fa-html5"></i><h1>HTML5:</h1></li>
+                    
+
+                    <li><i class="fab fa-2x fa-css3-alt"></i><h1>CSS</h1></li>
+                    <br />
+
+                    <li><i class="fab fa-2x fa-js-square"></i><h1>JAVASCRIPT</h1></li>
+                    <br />
+
+                    <li><i class="fab fa-2x fa-bootstrap"></i><h1>BOOTSTRAPH</h1></li>
+                    <br />
+
+                    <li><i class="fas fa-2x fa-code"></i><h1>C LANGUAGE</h1></li>
+                </ul>
+
+
+            </section>
+            <div class="div-clear"></div>
+            <hr class="normalhr" />
+
+            <!--foter start-->
+            <footer class="bottom-container">
+               
+                    <ul>
+                        <li><i class="fab fa-2x fa-facebook"></i><a href="https://www.facebook.com/israt.jannat.52643821" target="_blank">facebook</a>
+                        <li><i class="fab fa-2x fa-youtube"></i><a href="https://www.youtube.com/channel/UCDVl5RNrALBtTtSv2ZESBwA" target="_blank">youtube</a>
+                        
+                    </ul>
+
+                
+               
+                <p>
+                    <a href="#top">copyright by &copy;israt jannat sweety</a>
+                    </p>
+            </footer>
+            <!--footer end-->
+
+        </main>
+
+        <!--main end-->
+        
+        <!--SNOWFLAKES-->
+        <div class="snowflakes" aria-hidden="true">
+            <div class="snowflake">
+                ❅
+            </div>
+            <div class="snowflake">
+                ❆
+            </div>
+            <div class="snowflake">
+                ❅
+            </div>
+            <div class="snowflake">
+                ❆
+            </div>
+            <div class="snowflake">
+                ❅
+            </div>
+            <div class="snowflake">
+                ❆
+            </div>
+            <div class="snowflake">
+                ❅
+            </div>
+            <div class="snowflake">
+                ❆
+            </div>
+            <div class="snowflake">
+                ❅
+            </div>
+            <div class="snowflake">
+                ❆
+            </div>
+            <div class="snowflake">
+                ❅
+            </div>
+           <div class="snowflake">
+                ❆
+            </div>
+        </div>
+
+    </div>
+    <!--container end-->
+</body>
+</html>
